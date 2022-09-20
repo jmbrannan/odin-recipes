@@ -1,0 +1,38 @@
+/* my first time applying CSS */
+
+* {
+    color:black;
+    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+li {
+    color:darkslategrey;
+    font-family:monospace;
+    font-size: 11pt;
+}
+
+.title {
+    color:black;
+    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+}
+
+.subtitle {
+    color:black;
+    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.caption {
+    color:black;
+    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.heading {
+    color:black;
+    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
