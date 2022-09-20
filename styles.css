@@ -6,8 +6,13 @@
     font-size: 12pt;
 }
 
+img {
+    width: 500px;
+    height: auto;
+}
+
 li {
-    color:darkslategrey;
+    color: black;
     font-family:monospace;
     font-size: 11pt;
 }
@@ -36,3 +41,22 @@ li {
     font-size: 16pt;
     font-weight: bold;
 }
+
+.list-padding-adjustment {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 55px;
+}
+
+/* Alternative format:
+
+selector {
+    padding: 0px 0px 0px 50px;
+}
+
+selector {
+    padding: 50px 25px 75px;        Shorthand for: 50px left, 75px right, 25px left AND right 
+}
+
+*/
