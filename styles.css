@@ -1,9 +1,14 @@
 /* my first time applying CSS */
 
 * {
-    color:black;
-    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
     font-size: 12pt;
+}
+
+a {
+    color: hsl(0, 0%, 0%);
+    bg-color: hsl(0, 0%, 100%);
 }
 
 img {
@@ -12,32 +17,32 @@ img {
 }
 
 li {
-    color: black;
-    font-family:monospace;
+    color: hsl(0, 0%, 0%);
+    font-family: "monospace";
     font-size: 11pt;
 }
 
 .title {
-    color:black;
-    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
     font-size: 24pt;
 }
 
 .subtitle {
-    color:black;
-    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
     font-size: 16pt;
 }
 
 .caption {
-    color:black;
-    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
     font-size: 10pt;
 }
 
 .heading {
-    color:black;
-    font-family: Copperplate, Papyrus, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
     font-size: 16pt;
     font-weight: bold;
 }
@@ -49,14 +54,27 @@ li {
     padding-left: 55px;
 }
 
-/* Alternative format:
-
-selector {
-    padding: 0px 0px 0px 50px;
+.exp {
+    color: hsl(0, 0%, 0%, 0.7)
+    width: 600px;
+    margin: 0 auto;
+    font-family: "Copperplate", "Papyrus", "Arial", "Helvetica", "sans-serif";
+    font-style: italic;
+    font-weight: 100;
+    font-variant-ligatures: normal;
+    font-size: 2rem;
+    letter-spacing: 1px;
 }
 
-selector {
-    padding: 50px 25px 75px;        Shorthand for: 50px left, 75px right, 25px left AND right 
-}
-
-*/
+/* example from https://devdocs.io/css/-moz-image-rect */
+.container {
+    background-color: azure;
+    width: 800px;
+    height: 600px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    font-size: 16px;
+    text-shadow: black 0px 0px 2px;
+    text-align: center;
+  }
